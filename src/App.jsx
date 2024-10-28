@@ -1,3 +1,4 @@
+import ArrayUpdate from './ArrayUpdate'
 import Button from './Button/Button'
 import ButtonInline from './Button/ButtonInline'
 import Card from './Card'
@@ -50,6 +51,7 @@ function App() {
       <Form></Form>
       <ColorPicker />
       <ObjectUpdate />
+      <ArrayUpdate />
     </>
   )
 }
